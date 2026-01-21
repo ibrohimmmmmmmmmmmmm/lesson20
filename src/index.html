@@ -1,91 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
+
 <body>
     <div class="flex items-center justify-evenly bg-green-500 pt-5 pb-5">
         <p class="p-2 border 1px solid text-white w-[-100px] flex justify-center rounded-2xl">Каталог</p>
         <img src="../Mask group (2).png" alt="">
-        <div class="flex items-center w-[15%] justify-between ">
+        <div class="hidden lg:flex text-white gap-10">
+            <p>Доставка</p>
+            <p>Способы оплаты</p>
+            <p>Контакты</p>
+            <p>Гарантии и возврат</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+        <div class="flex items-center w-[15%] justify-between lg:hidden">
             <img src="../menu-hamburger.png" alt="">
             <img src="../shopping-bag.png" alt="">
         </div>
     </div>
-    <div class="all1  pt-10 pb-10 bg-pink-100 ">
-        <p class="font-bold text-2xl text-center w-[95%] m-auto">Идеи, товары и услуги. Все для красивогодома</p>
-        <p class="text-center w-[95%] m-auto">У нас есть и готовые модели, и возможность сделать мебель на заказ по вашему собственному дизайну.</p>
-        <div class="flex p-4 w-[90%] items-center justify-between border 1px solid to-white m-auto rounded-2xl mt-10 mb-10">
-            <p class="text-blue-95000">Найти товары</p>
-            <div class="flex items-center w-[20%] justify-between">
-                <img src="../filter-line.png" alt="">
-                <img src="../Rectangle 5.png" alt="">
+    <div class="all1  pt-10 pb-10 bg-pink-100  lg:flex items-center">
+        <div class="all1-box1">
+            <p class="font-bold text-2xl text-center w-[95%] m-auto">Идеи, товары и услуги. Все для красивогодома</p>
+            <p class="text-center w-[95%] m-auto">У нас есть и готовые модели, и возможность сделать мебель на заказ по
+                вашему собственному дизайну.</p>
+            <div
+                class="flex p-4 w-[90%] items-center justify-between border 1px solid to-white m-auto rounded-2xl mt-10 mb-10">
+                <p class="text-blue-95000">Найти товары</p>
+                <div class="flex items-center w-[20%] justify-between">
+                    <img src="../filter-line.png" alt="">
+                    <img src="../Rectangle 5.png" alt="">
+                </div>
             </div>
         </div>
-        <div class="all1-box p-4 text-2xl text-white bg-pink-200 w-[90%] m-auto rounded-2xl">
+
+        <div class="all1-box2 p-4 text-2xl text-white bg-pink-200 w-[90%] m-auto rounded-2xl " style="width: 365px;">
             <p class="font-bold">Virtorya</p>
             <p class="mt-5 mb-5">Кресло интерьерное</p>
             <div class="flex items-center justify-evenly w-[70%] mb-5">
-               <p>Цвет</p>
-               <p class="bg-white rounded-2xl p-3"> </p> 
-               <p class="bg-red-500 rounded-2xl p-3"> </p>
+                <p>Цвет</p>
+                <p class="bg-white rounded-2xl p-3"> </p>
+                <p class="bg-red-500 rounded-2xl p-3"> </p>
                 <p class="bg-pink-300 rounded-2xl p-3"> </p>
-                 <p class="bg-emerald-700 rounded-2xl p-3"> </p>
+                <p class="bg-emerald-700 rounded-2xl p-3"> </p>
             </div>
-            <p class="mb-20">8900.00 rub</p>           
+            <p class="mb-20">8900.00 rub</p>
         </div>
-    <img src="../870 1.png" alt="" class="z-1 relative " style="margin-top: -150px;">
+        <img src="../870 1.png" alt="" class="z-1 relative lg:hidden  " style="margin-top: -150px; ">
     </div>
+    <img src="../870 1 (1).png" alt="" class="hidden lg:block z-10" style="margin-top: -200px;margin-left: 800px;">
     <div class="all2">
         <p class="font-bold text-2xl text-center mt-5 mb-5">Популярные категории</p>
         <div class="flex items-center justify-evenly mt-5 mb-5">
-        <p class="p-2 bg-emerald-950 text-white  rounded-2xl">Консоли</p> 
-        <p>Кресла</p>
-        <p>Интерьерные диваны</p>
+            <p class="hidden lg:block">Столы</p>
+            <p class="hidden lg:block">Стулья</p>
+            <p class="p-2 bg-emerald-950 text-white  rounded-2xl">Консоли</p>
+            <p>Кресла</p>
+            <p>Интерьерные диваны</p>
         </div>
     </div>
-    <div class="flex items-center w-[90%] m-auto justify-between flex-wrap">
-        <div class="all2-box w-[45%] text-center mb-5">
-            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100" style="width: 100%;">
+    <div class="flex items-center w-[90%] m-auto justify-between flex-wrap lg:hidden">
+        <div class="all2-box w-[45%] text-center mb-5 ">
+            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100 "
+                style="width: 100%;  ">
             <p class="font-bold mt-3">Стул Венеция</p>
             <p class="text-cyan-900 mt-1 mb-1">Белый</p>
             <p>11.990 руб</p>
         </div>
         <div class="all2-box w-[45%] text-center mb-5">
-            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100" style="width: 100%;">
+            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100"
+                style="width: 100%;">
             <p class="font-bold mt-3">Стул ALLY VBP-206</p>
             <p class="text-cyan-900 mt-1 mb-1">Белый</p>
             <p>11.990 руб</p>
         </div>
-         <div class="all2-box w-[45%] text-center mb-5">
-            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100" style="width: 100%;">
+        <div class="all2-box w-[45%] text-center mb-5">
+            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100"
+                style="width: 100%;">
             <p class="font-bold mt-3">Cтул Виктория</p>
             <p class="text-cyan-900 mt-1 mb-1">Белый</p>
             <p>11.990 руб</p>
         </div>
         <div class="all2-box w-[45%] text-center mb-5">
-            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100" style="width: 100%;">
+            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100"
+                style="width: 100%;">
             <p class="font-bold mt-3">Стул Риоя</p>
             <p class="text-cyan-900 mt-1 mb-1">Белый</p>
             <p>11.990 руб</p>
         </div>
         <div class="all2-box w-[45%] text-center mb-5">
-            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100" style="width: 100%;">
+            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100"
+                style="width: 100%;">
             <p class="font-bold mt-3">Стул Венеция</p>
             <p class="text-cyan-900 mt-1 mb-1">Белый</p>
             <p>11.990 руб</p>
         </div>
         <div class="all2-box w-[45%] text-center mb-5">
-            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100" style="width: 100%;">
+            <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1.png" alt="" class="p-4 rounded-2xl bg-pink-100"
+                style="width: 100%;">
             <p class="font-bold mt-3">Стул Венеция</p>
             <p class="text-cyan-900 mt-1 mb-1">Белый</p>
             <p>11.990 руб</p>
         </div>
-        
-        
+    </div>
+    <div class="all20 w-[90%] m-auto  justify-between hidden lg:block flex-wrap">
+        <div class="flex justify-between mb-10">
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул Венеция</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул ALLY VBP-206</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул Рио</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул Виктория</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+        </div>
+        <div class="flex justify-between mb-10">
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул Венеция</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул ALLY VBP-206</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул Рио</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+            <div class="all2-box p-4 bg-pink-100 w-[20%] rounded-2xl">
+                <img src="../4rxja2veeongo6g5n5gsux5x3q0iz7ac-transformed 1 (1).png" alt="" class="m-auto">
+                <p class="font-bold mt-3 text-center">Стул Венеция</p>
+                <p class="text-cyan-900 mt-1 mb-1 text-center">Белый</p>
+                <p class="text-center">11.990 руб</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="all3 lg:flex justify-evenly">
+        <img src="../Rectangle 116.png" alt="" class="mb-5 m-auto">
+        <img src="../Rectangle 913.png" alt="" class="mb-5 m-auto">
+        <img src="../Rectangle 914.png" alt="" class="mb-5 m-auto">
+    </div>
+    <div class="hidden  lg:flex items-center w-[90%] m-auto mt-10 mb-10 justify-between">
+        <div class="left w-[50%]">
+            <img src="../4266915 1.png" alt="">
+        </div>
+        <div class="right">
+            <img src="../Rectangle 89.png" alt="" class="mb-5">
+            <img src="../Rectangle 114.png" alt="">
+        </div>
+    </div>
+    <div class="p-4 w-[90%] m-auto text-white bg-red-500 rounded-2xl lg:flex">
+        <div class="lg:w-[60%]">
+            <p class="font-bold text-center text-2xl">Мы на You-tube</p>
+            <p class="text-center mt-5 mb-10">Специально для вас мы создали канал с полезынми и интересными роликами</p>
+            <div class="flex items-center gap-5 bg-white text-red-500 p-3 w-[50%] m-auto rounded-2xl">
+                <p>Смотреть</p>
+                <img src="../play-circle.png" alt="">
+            </div>
+        </div>
+        <img src="../glowing_youtube_logo_on_a_realistic_3d_circle 1.png" alt="" class="m-auto mt-5 mb-3">
+    </div>
+
+    <div class="all4 w-[90%] m-auto">
+        <p class="text-2xl font-bold mt-10 mb-10 text-center">Отзывы клиентов</p>
+        <div class=" lg:flex">
+            <div class="w-[90%] m-auto lg:w-[25%]">
+                <div class="all4-box w-[90%] m-auto lg:w- [25%]">
+                    <div class="flex items-center gap-5 mb-5 ">
+                        <img src="../Mask group (3).png" alt="">
+                        <p class="font-bold w-[40%]">Елена Александровна</p>
+                    </div>
+                    <p style="font-size: 12px;">Конструкторы Лего развивают мелкую моторику рук, способность к
+                        концентрации,
+                        мышление, ловкость, интеллект, и помогают ребятишкам раскрывать их творческий потенциал.
+                        Элементам
+                        конструкторов Lego свойственны четкие геометрические формы, что помогает </p>
+                </div>
+            </div>
+            <div class="w-[25%] m-auto  ">
+                <div class="all4-box hidden  lg:block items-center w- [100%]">
+                    <div class="flex items-center gap-5 mb-5 ">
+                        <img src="../Mask group (3).png" alt="">
+                        <p class="font-bold w-[40%]">Елена Александровна</p>
+                    </div>
+                    <p style="font-size: 12px;">Конструкторы Лего развивают мелкую моторику рук, способность к
+                        концентрации,
+                        мышление, ловкость, интеллект, и помогают ребятишкам раскрывать их творческий потенциал.
+                        Элементам
+                        конструкторов Lego свойственны четкие геометрические формы, что помогает </p>
+                </div>
+            </div>
+            <div class="w-[25%] m-auto  ">
+                <div class="all4-box hidden  lg:block items-center w- [100%]">
+                    <div class="flex items-center gap-5 mb-5 ">
+                        <img src="../Mask group (3).png" alt="">
+                        <p class="font-bold w-[40%]">Елена Александровна</p>
+                    </div>
+                    <p style="font-size: 12px;">Конструкторы Лего развивают мелкую моторику рук, способность к
+                        концентрации,
+                        мышление, ловкость, интеллект, и помогают ребятишкам раскрывать их творческий потенциал.
+                        Элементам
+                        конструкторов Lego свойственны четкие геометрические формы, что помогает </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all5 w-[90%] m-auto mt-10 mb-10 lg:w-w[80%] m- auto">
+        <p class="text-2xl font-bold mb-2">Стол плюс</p>
+        <p style="font-size: 12px; ">«Стол Плюс» — больше, чем мебельный магазин в Воронеже. Это семейное дело с
+            20-летней историей, 30 проверенными фабриками-партнёрами, большим каталогом мебели и собственным
+            производством. У нас сплоченная команда профессионалов, преданных своей работе и заинтересованных в
+            результате.</p>
+    </div>
+
+    <div class="all6 flex items-center w-[90%] m-auto text-center justify-between flex-wrap">
+        <div class="all6-box bg-pink-200 text-blue-950 w-[45%] p-4 rounded-2xl mb-5 lg:w-[20%]">
+            <img src="../armchair-chair-furniture-sofa-svgrepo-com 2.png" alt="" class="m-auto mt-3 mb-2">
+            <p class="mb-5">Большой выбор мебели</p>
+        </div>
+        <div class="all6-box bg-pink-200 text-blue-950 w-[45%] p-4 rounded-2xl mb-5 lg:w-[20%]">
+            <img src="../like.png" alt="" class="m-auto mt-3 mb-2">
+            <p class="mb-5">Гарантия качества</p>
+        </div>
+        <div class="all6-box bg-pink-200 text-blue-950 w-[45%] p-4 rounded-2xl mb-5 lg:w-[20%]">
+            <img src="../drawing.png" alt="" class="m-auto mt-3 mb-2">
+            <p class="mb-5">Индивидуальный подход</p>
+        </div>
+        <div class="all6-box bg-pink-200 text-blue-950 w-[45%] p-4 rounded-2xl mb-5 lg:w-[20%]">
+            <img src="../blob-discount.png" alt="" class="m-auto mt-3 mb-2 ">
+            <p class="mb-5 w-[50%] m-auto ">Выгодные цены</p>
+        </div>
+    </div>
+
+    <div class="all7 w-[90%] m-auto mt-5 mb-5 text-green-700 lg:flex justify-between">
+        <div class="all7-1">
+            <img src="../Стол-плюс-footer-1 1.png" alt="">
+            <p class=" font-bold">StolPlus - Компания по производствуи продажи мебели</p>
+            <p class="mt-5 mb-5">Информация на сайте исключительно для ознакомления</p>
+        </div>
+        <div class="all7-2 leading-8 mb-10">
+            <p>Каталог</p>
+            <p>Мебель из массива</p>
+            <p>Столы</p>
+            <p>Стулья</p>
+            <p class="text-green-950">Консоли</p>
+            <p>Кухонные уголки</p>
+            <p>Кресла</p>
+            <p>Интерьерные диваны</p>
+            <p>Кровати</p>
+        </div>
+        <div class="all7-2 leading-8 mb-10">
+            <p>Помощь</p>
+            <p>Мебель из массива</p>
+            <p>Столы</p>
+            <p>Стулья</p>
+            <p class="text-green-950">Консоли</p>
+            <p>Кухонные уголки</p>
+        </div>
+        <div class="all7-2 leading-8 mb-10">
+            <p>Контакты</p>
+            <p>г.Воронеж Бульвар Победы 23Б</p>
+            <p>+7 (961) 181-69-70</p>
+            <p>mailto:stolplus@mail.ru</p>
+            <p>Время работы: 10:00-21:00</p>
+        </div>
+
     </div>
 </body>
+
 </html>
